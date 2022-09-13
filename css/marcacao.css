@@ -1,0 +1,104 @@
+.container-obrigado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(34, 34, 34, 0.546);
+    z-index: 1003;
+    font-family: 'pupis';
+}
+
+.caixa-container {
+    height: 400px;
+    max-width: 400px;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.fa-face-smile {
+    display: block;
+    font-size: 5rem;
+    margin-bottom: 9px;
+}
+
+.aviso {
+    padding: 7px 6px;
+    background: #0cb109;
+    margin: 6px 0;
+    font-size: 2rem;
+    border-radius: .7rem;
+}
+
+.ola {
+    margin: 7px;
+    font-size: 1rem;
+}
+
+.ola span {
+    font-size: 1.8rem;
+}
+
+.ola .verde {
+    color: #0cb109;
+    margin-left: 4px;
+}
+
+.control-obrigado {
+    width: 100%;
+    margin: 7px;
+}
+
+.control-obrigado p {
+    font-size: 1.8rem;
+}
+
+.control-obrigado span {
+    font-size: 1.6rem;
+    display: block;
+}
+
+.botoes-ob,
+.comprovativo {
+    margin: 12px 0;
+}
+
+.botoes-ob button {
+    margin: 0 7px;
+    padding: 9px 14px;
+    display: inline-block;
+    background: #0cb109;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.comprovativo span {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.comprovativo .ind {
+    color: #130f40;
+}
+
+.container-obrigado a {
+    padding: 4px;
+    font-size: 1.4rem;
+    color: #130f40;
+    margin-bottom: 1.4rem;
+    line-height: .4px;
+}
+
+.container-obrigado a:hover {
+    text-decoration: underline;
+}
